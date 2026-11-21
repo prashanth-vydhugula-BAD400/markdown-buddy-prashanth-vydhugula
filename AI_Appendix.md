@@ -66,14 +66,14 @@ ChatGPT suggested discussing documentation structure, AI limitations, manual val
 
 ## 3. Manual Verification
 
-The following checks are required:
+**Verification Results:**
 
-- Review README.md using GitHub Preview.
-- Check headings, bullet points, and code blocks.
-- Run analysis.R using RStudio or Posit Cloud.
-- Independently verify the average score.
-- Knit script_documentation.Rmd to HTML.
-- Review the R Markdown output for errors.
+- R script executed successfully in Posit Cloud.
+- R Console output: [1] 80.
+- R Markdown successfully knitted to HTML.
+- HTML preview displayed the headings and code blocks correctly.
+- Independent manual calculation: [Enter your own calculation and result].
+- Comparison with R output: [Enter whether your calculation matched].
 
 **Verification Status:** Pending completion of all checks.
 
