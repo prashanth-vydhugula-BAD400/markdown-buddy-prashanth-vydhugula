@@ -1,0 +1,58 @@
+
+---
+title: "Synthetic Student Score Analysis"
+author: "Prashanth Vydhugula"
+date: "2026-11-20"
+output: html_document
+---
+
+# Purpose
+
+This R Markdown document explains a simple R script that analyzes synthetic student scores.
+
+The purpose is to demonstrate basic R programming, data analysis, and documentation.
+
+# Inputs
+
+The script uses a synthetic numeric vector containing five student scores:
+
+```{r}
+scores <- c(75, 80, 90, 85, 70)
+scores
+```
+
+# Process
+
+The script uses the `mean()` function to calculate the average score.
+
+```{r}
+mean_score <- mean(scores)
+```
+
+# Outputs
+
+The script prints the calculated average score.
+
+```{r}
+print(mean_score)
+```
+
+# Verification
+
+The result must be checked independently by manually calculating the average and comparing it with the R output.
+
+Verification status: Pending manual testing.
+
+# Conclusion
+
+This example demonstrates how R can be used to analyze synthetic numeric data and how R Markdown can document the purpose, inputs, processing steps, and outputs.
+
+# AI Assistance Declaration
+
+I used ChatGPT (GPT-6) to help draft and format the R Markdown documentation on November 20, 2026.
+
+Prompts used: Suggestions for Markdown formatting, syntax highlighting, and organizing Purpose, Inputs, and Outputs sections.
+
+Verification methods: RStudio or Posit Cloud rendering and independent manual review (pending).
+
+All final calculations will be performed by myself. I am responsible for the accuracy and originality of this work.
